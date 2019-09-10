@@ -55,7 +55,7 @@ const CreateTeam = props => {
       value={newTeam.role}
       />
 
-      <textarea className="textfield" name="body" onChange={handleChange} value={newTeam.body} />
+      <textarea placeholder="Description..." className="textfield" name="body" onChange={handleChange} value={newTeam.body} />
 
       <button type="submit">Submit</button>
       <button type="button" onClick={resetForm}>
