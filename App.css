@@ -1,0 +1,85 @@
+html,
+body,
+.App,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  background-image: url('https://cdn.pixabay.com/photo/2015/09/15/12/54/wall-941011_960_720.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #aaa;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 2px 2px #444;
+}
+
+h1 {
+  font-family: 'Satisfy', 'Open Sans', sans-serif;
+  font-size: 2.8rem;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.textfield {
+  width: 200px;
+  height: 120px;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+button {
+  width: 80px;
+  height: 45px;
+  background: darkslategrey;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+input {
+  width: 160px;
+  height: 25px;
+  border-radius: 4px;
+  padding: 10px 0 0 5px;
+}
+
+form {
+  background-color: teal;
+  color: whitesmoke;
+  border: 2px solid grey;
+  border-radius: 8px;
+  display: inline-flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+.teamList {
+  background: teal;
+  color: whitesmoke;
+  width: 100%;
+  padding-bottom: 45px;
+  margin: 0 auto;
+  text-align: center;
+  width: 400px;
+  height: 150px;
+  border-radius: 8px;
+  border: 2px solid grey;
+  box-shadow: 2px 0px #444;
+}
