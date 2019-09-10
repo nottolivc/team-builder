@@ -44,7 +44,7 @@ input {
 }
 
 form {
-  background-color: lightskyblue;
+  background-color: lightsteelblue;
   color: whitesmoke;
   border: 2px solid grey;
   border-radius: 8px;
@@ -58,11 +58,12 @@ form {
   background: lightsteelblue;
   color: whitesmoke;
   width: 100%;
-  padding: 45px;
+  padding-bottom: 45px;
   margin: 0 auto;
   text-align: center;
   width: 400px;
-  height: 100px;
+  height: 120px;
   border-radius: 8px;
   border: 1px solid #aaa;
+  box-shadow: 2px 0px #aaa;
 }
