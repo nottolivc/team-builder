@@ -9,6 +9,20 @@ body,
   text-align: center;
 }
 
+body {
+  background-image: url('https://cdn.pixabay.com/photo/2015/09/15/12/54/wall-941011_960_720.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #aaa;
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 2px 2px #444;
+}
+
+h1 {
+  font-family: 'Satisfy', 'Open Sans', sans-serif;
+  font-size: 2.8rem;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,7 +36,7 @@ body,
 
 .textfield {
   width: 200px;
-  height: 200px;
+  height: 120px;
   border-radius: 4px;
   padding: 20px;
 }
@@ -30,7 +44,7 @@ body,
 button {
   width: 80px;
   height: 45px;
-  background:darkblue;
+  background: darkslategrey;
   color: white;
   border-radius: 8px;
   font-size: 1.1rem;
@@ -41,10 +55,11 @@ input {
   width: 160px;
   height: 25px;
   border-radius: 4px;
+  padding: 10px 0 0 5px;
 }
 
 form {
-  background-color: lightsteelblue;
+  background-color: teal;
   color: whitesmoke;
   border: 2px solid grey;
   border-radius: 8px;
@@ -52,18 +67,19 @@ form {
   flex-flow: column nowrap;
   align-items: center;
   margin-bottom: 20px;
+  width: 400px;
 }
 
 .teamList {
-  background: lightsteelblue;
+  background: teal;
   color: whitesmoke;
   width: 100%;
   padding-bottom: 45px;
   margin: 0 auto;
   text-align: center;
   width: 400px;
-  height: 120px;
+  height: 150px;
   border-radius: 8px;
-  border: 1px solid #aaa;
-  box-shadow: 2px 0px #aaa;
+  border: 2px solid grey;
+  box-shadow: 2px 0px #444;
 }
